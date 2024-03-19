@@ -74,7 +74,7 @@ def scraping_data(link):
         time.sleep(0.2)
 
 
-if img_link and not link:  # Check if img_link is not None and link is None
+if img_link and not link:  
     with st.container():
         st_lottie(img_link, height=350, width=350, key="centered_img")
 
